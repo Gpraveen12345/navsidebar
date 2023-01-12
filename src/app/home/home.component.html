@@ -1,0 +1,26 @@
+<div class="container">
+<mat-toolbar   style="height: 10.2vh;" >
+    <mat-toolbar-row style="background-color:white;">
+        <h1> angular material</h1>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="background" >
+      <h1> sub heading</h1>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container  class="background" style="border-top: 1px solid lightgray;">
+    <mat-sidenav style="width: 20rem; border: none" mode="side" opened  class="background">
+        <mat-nav-list>
+            <a mat-list-item>home</a>
+            <a mat-list-item>TEstasdfa</a>
+            <a mat-list-item>home</a>
+            <a mat-list-item>hadsfasdfasome</a>
+            <a mat-list-item>home</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 88vh">
+            <app-template></app-template>
+        <router-outlet></router-outlet></div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+</div>
